@@ -19,6 +19,7 @@ INSTALLED_APPS = [
     # local
     "accounts",
     "projects",
+    "news",
     # third party
     "rest_framework",
     "rest_framework.authtoken",
