@@ -6,5 +6,8 @@ class Project(models.Model):
     image = models.ImageField(upload_to="projects/")
     body = models.TextField()
 
+    class Meta:
+        ordering = ('-id',)
+
     def __str__(self):
         return self.title
