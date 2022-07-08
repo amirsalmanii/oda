@@ -20,6 +20,7 @@ INSTALLED_APPS = [
     "accounts",
     "projects",
     "news",
+    "subscribe",
     # third party
     "rest_framework",
     "rest_framework.authtoken",
